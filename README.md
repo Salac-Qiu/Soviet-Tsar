@@ -1,121 +1,73 @@
-# Soviet-Tsar
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>属于沙皇</title>
+    <title>属于沙皇</title>
     <style>
-        body {
-            margin: 0;
-            height: 100vh; 
-            background-image: linear-gradient(to right, #ff0000, #ffd700); 
-            font-family: Arial, sans-serif;
-            color: #fff; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <h1>苏维埃沙皇</h1>
-    <body>
-        <h1>理想 体验和一切</h1>
-    </body>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的网站</title>
-    <style>
-</head>
-<body>
-    <div class="scrollable">
-        <div class="content">
-            <h1></h1>
-            <p></p>
-            <p>游戏主旨</p>
-            <p>制作团队</p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
-    </div>
-</body>
-</html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全屏滚动示例</title>
-    <style>
-        /* 设定页面基本样式 */
+        /* 确保页面全屏显示并且有渐变背景 */
         html, body {
             margin: 0;
             padding: 0;
-            height: 100%;  /* 确保页面的高度是100% */
+            height: 100%;
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: #f0f0f0;
-            color: #333;
-            padding: 0;
-            margin: 0;
-        }
-        .section {
-            height: 100vh; /* 每个区的高度设置为视口高度 */
+            background-image: linear-gradient(to right, #ff0000, #ffd700);
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
-            background-color: #ff7e5f; /* 第一个区域的背景色 */
             color: white;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .section {
+            height: 100vh; /* 每个部分的高度设置为视口高度 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .section:nth-child(1) {
+            background-color: #ff7e5f; /* 第一部分的背景 */
         }
         .section:nth-child(2) {
-            background-color: #feb47b;
+            background-color: #feb47b; /* 第二部分的背景 */
         }
         .section:nth-child(3) {
-            background-color: #6a82fb;
-            color: white;
+            background-color: #6a82fb; /* 第三部分的背景 */
         }
         a {
             color: white;
             text-decoration: none;
             font-size: 1.5em;
             margin-top: 20px;
-            display: inline-block;
         }
         a:hover {
             text-decoration: underline;
         }
+    </style>
 </head>
 <body>
     <div class="section">
         <div>
-            <h1>欢迎来到我的网站</h1>
-            <p>这是一个全屏滚动的页面。</p>
+            <h1>苏维埃沙皇</h1>
+            <p>理想、体验和一切</p>
             <a href="#section2">下一部分</a>
         </div>
     </div>
     <div class="section" id="section2">
         <div>
-            <h1>这是第二部分</h1>
-            <p>你可以添加更多的内容来使页面变得更加丰富。</p>
+            <h1>游戏主旨</h1>
+            <p>这部分介绍游戏的主要内容和玩法。</p>
             <a href="#section3">下一部分</a>
         </div>
     </div>
     <div class="section" id="section3">
         <div>
-            <h1>这是第三部分</h1>
-            <p>这是最后一个部分！</p>
+            <h1>制作团队</h1>
+            <p>这里列出参与游戏制作的团队成员。</p>
             <a href="#">返回顶部</a>
         </div>
     </div>

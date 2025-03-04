@@ -1,10 +1,9 @@
 # Soviet-Tsar
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>共产主义主题页面</title>
+   <title>属于沙皇</title>
     <style>
         body {
             margin: 0;
@@ -27,4 +26,14 @@
     <h1>苏维埃沙皇</h1>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>示例页面</title>
+    </head>
+    <body>
+        <h1>理想 体验和一切</h1>
+    </body>
+</html>
+
 
